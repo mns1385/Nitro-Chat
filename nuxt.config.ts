@@ -18,5 +18,14 @@ export default defineNuxtConfig({
     }
   },
 
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+
+  i18n: {
+    strategy: 'no_prefix',
+    locales: [
+      {code: 'en', language: 'en-us', name: 'English', dir: 'ltr', file: 'en.json'},
+      {code: 'fa', language: 'fa-IR', name: 'فارسی', dir: 'rtl', file: 'fa.json'},
+    ],
+    defaultLocale: 'en'
+  }
 })
