@@ -1,3 +1,8 @@
 {
-    "name": "Nitro Chat"
+    "name": "Nitro Chat",
+
+    "button": {
+        "login": "login",
+        "logout": "logout"
+    }
 }
