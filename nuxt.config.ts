@@ -27,5 +27,9 @@ export default defineNuxtConfig({
       {code: 'fa', language: 'fa-IR', name: 'فارسی', dir: 'rtl', file: 'fa.json'},
     ],
     defaultLocale: 'en'
-  }
+  },
+
+  css: [
+    '~/assets/css/background.css'
+  ]
 })
