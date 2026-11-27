@@ -26,10 +26,10 @@ const classType = computed(() => {
 </script>
 
 <template>
-    <button class="flex items-center justify-bitween gap-2 py-1 px-2 rounded-xl"
-    :class="classType">
+    <button class="flex items-center justify-bitween gap-2 py-1 px-2 transition"
+    :class="classType, props.value? 'rounded-xl': 'rounded-full'">
         <slot/>
-        <span :class="[`text-${props.size}`]">
+        <span :class="[`text-${props.size}`]" v-if="props.value">
             {{ props.value }}
         </span>
     </button>
