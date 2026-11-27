@@ -28,7 +28,7 @@ const isOpenLang = ref(false)
                 <div v-if="isOpenLang" 
                 class="absolute mt-1 top-full left-0 bg-gray-300 rounded-xl w-full">
                     <div v-for="l in locales" 
-                    class="tex-xl text-bold text-gray-800 rounded-xl w-full hover:bg-gray-400 p-1 border-b border-gray-500 transition"
+                    class="tex-xl text-bold text-center text-gray-800 rounded-xl w-full hover:bg-gray-400 p-1 border-b border-gray-500 transition"
                     @click="setLocale(l.code); isOpenLang = !isOpenLang">
                         {{ l.code }}
                     </div>
