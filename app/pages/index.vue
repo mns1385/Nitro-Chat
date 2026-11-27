@@ -8,7 +8,7 @@ import AppButton from '~/components/global/AppButton.vue';
     <div class="min-h-screan w-full">
 
         <!--Header-->
-        <div class="flex w-full items-center justify-between py-3 bg-white/20 backdrop-blur-sm lg:px-8 md:px-6 border-b border-blue-600 shadow-sm shadow-blue-500">
+        <div class="flex w-full items-center justify-between py-3 bg-white/20 backdrop-blur-sm px-8 border-b border-blue-600 shadow-sm shadow-blue-500">
             
             <!--Name App-->
             <div class="flex items-center justify-between gap-2">
